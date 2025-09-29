@@ -1,1 +1,579 @@
 ﻿variable,description,type,code,label
+Q1,결혼여부,SINGLE,1,미혼
+Q1,결혼여부,SINGLE,2,기혼
+Q1,결혼여부,SINGLE,3,기타(사별/이혼 등)
+Q3,가족수,SINGLE,1,1명(혼자 거주)
+Q3,가족수,SINGLE,2,2명
+Q3,가족수,SINGLE,3,3명
+Q3,가족수,SINGLE,4,4명
+Q3,가족수,SINGLE,5,5명 이상
+Q4,최종학력,SINGLE,1,고등학교 졸업 이하
+Q4,최종학력,SINGLE,2,대학교 재학(휴학 포함)
+Q4,최종학력,SINGLE,3,대학교 졸업
+Q4,최종학력,SINGLE,4,대학원 재학/졸업 이상
+Q5,직업,SINGLE,1,"전문직 (의사, 간호사, 변호사, 회계사, 예술가, 종교인, 엔지니어, 프로그래머, 기술사 등)"
+Q5,직업,SINGLE,2,"교직 (교수, 교사, 강사 등)"
+Q5,직업,SINGLE,3,"경영/관리직 (사장, 대기업 간부, 고위 공무원 등)"
+Q5,직업,SINGLE,4,"사무직 (기업체 차장 이하 사무직 종사자, 공무원 등)"
+Q5,직업,SINGLE,5,"자영업 (제조업, 건설업, 도소매업, 운수업, 무역업, 서비스업 경영)"
+Q5,직업,SINGLE,6,"판매직 (보험판매, 세일즈맨, 도/소매업 직원, 부동산 판매, 행상, 노점상 등)"
+Q5,직업,SINGLE,7,"서비스직 (미용, 통신, 안내, 요식업 직원 등)"
+Q5,직업,SINGLE,8,"생산/노무직 (차량운전자, 현장직, 생산직 등)"
+Q5,직업,SINGLE,9,"기능직 (기술직, 제빵업, 목수, 전기공, 정비사, 배관공 등)"
+Q5,직업,SINGLE,10,농업/임업/축산업/광업/수산업
+Q5,직업,SINGLE,11,임대업
+Q5,직업,SINGLE,12,중/고등학생
+Q5,직업,SINGLE,13,대학생/대학원생
+Q5,직업,SINGLE,14,전업주부
+Q5,직업,SINGLE,15,퇴직/연금생활자
+Q5_1,직무,SINGLE,1,경영•인사•총무•사무
+Q5_1,직무,SINGLE,2,재무•회계•경리
+Q5_1,직무,SINGLE,3,금융•보험•증권
+Q5_1,직무,SINGLE,4,마케팅•광고•홍보•조사
+Q5_1,직무,SINGLE,5,무역•영업•판매•매장관리
+Q5_1,직무,SINGLE,6,고객상담•TM
+Q5_1,직무,SINGLE,7,전문직•법률•인문사회•임원
+Q5_1,직무,SINGLE,8,의료•간호•보건•복지
+Q5_1,직무,SINGLE,9,교육•교사•강사•교직원
+Q5_1,직무,SINGLE,10,방송•언론
+Q5_1,직무,SINGLE,11,문화•스포츠
+Q5_1,직무,SINGLE,12,서비스•여행•숙박•음식•미용•보안
+Q5_1,직무,SINGLE,13,유통•물류•운송•운전
+Q5_1,직무,SINGLE,14,디자인
+Q5_1,직무,SINGLE,15,인터넷•통신
+Q5_1,직무,SINGLE,16,IT
+Q5_1,직무,SINGLE,17,모바일
+Q5_1,직무,SINGLE,18,게임
+Q5_1,직무,SINGLE,19,전자•기계•기술•화학•연구개발
+Q5_1,직무,SINGLE,20,건설•건축•토목•환경
+Q5_1,직무,SINGLE,21,생산•정비•기능•노무
+Q6,월평균 개인소득,SINGLE,1,월 100만원 미만
+Q6,월평균 개인소득,SINGLE,2,월 100~199만원
+Q6,월평균 개인소득,SINGLE,3,월 200~299만원
+Q6,월평균 개인소득,SINGLE,4,월 300~399만원
+Q6,월평균 개인소득,SINGLE,5,월 400~499만원
+Q6,월평균 개인소득,SINGLE,6,월 500~599만원
+Q6,월평균 개인소득,SINGLE,7,월 600~699만원
+Q6,월평균 개인소득,SINGLE,8,월 700~799만원
+Q6,월평균 개인소득,SINGLE,9,월 800~899만원
+Q6,월평균 개인소득,SINGLE,10,월 900~999만원
+Q6,월평균 개인소득,SINGLE,11,월 1000만원 이상
+Q6,월평균 개인소득,SINGLE,9998,모름/무응답
+Q7,월평균 가구소득,SINGLE,1,월 100만원 미만
+Q7,월평균 가구소득,SINGLE,2,월 100~199만원
+Q7,월평균 가구소득,SINGLE,3,월 200~299만원
+Q7,월평균 가구소득,SINGLE,4,월 300~399만원
+Q7,월평균 가구소득,SINGLE,5,월 400~499만원
+Q7,월평균 가구소득,SINGLE,6,월 500~599만원
+Q7,월평균 가구소득,SINGLE,7,월 600~699만원
+Q7,월평균 가구소득,SINGLE,8,월 700~799만원
+Q7,월평균 가구소득,SINGLE,9,월 800~899만원
+Q7,월평균 가구소득,SINGLE,10,월 900~999만원
+Q7,월평균 가구소득,SINGLE,11,월 1000만원 이상
+Q7,월평균 가구소득,SINGLE,9998,모름/무응답
+Q8,보유전제품,MULTI,1,TV
+Q8,보유전제품,MULTI,2,냉장고
+Q8,보유전제품,MULTI,3,김치냉장고
+Q8,보유전제품,MULTI,4,세탁기
+Q8,보유전제품,MULTI,5,에어컨
+Q8,보유전제품,MULTI,6,제습기
+Q8,보유전제품,MULTI,7,공기청정기(에어 케어)
+Q8,보유전제품,MULTI,8,정수기
+Q8,보유전제품,MULTI,9,일반청소기
+Q8,보유전제품,MULTI,10,로봇청소기
+Q8,보유전제품,MULTI,11,"무선청소기(예:다이슨, 코드제로, 제트 등)"
+Q8,보유전제품,MULTI,12,"커피 머신(에스프레소 머신, 캡슐커피 머신 등)"
+Q8,보유전제품,MULTI,13,안마의자
+Q8,보유전제품,MULTI,14,음식물 처리기
+Q8,보유전제품,MULTI,15,비데
+Q8,보유전제품,MULTI,16,의류 관리기(스타일러)
+Q8,보유전제품,MULTI,17,건조기
+Q8,보유전제품,MULTI,18,"전기레인지(하이라이트, 인덕션, 핫플레이트 등)"
+Q8,보유전제품,MULTI,19,식기세척기
+Q8,보유전제품,MULTI,20,에어프라이기
+Q8,보유전제품,MULTI,21,가정용 식물 재배기
+Q8,보유전제품,MULTI,22,노트북
+Q8,보유전제품,MULTI,23,"태블릿PC (아이패드, 갤럭시 탭 등)"
+Q8,보유전제품,MULTI,24,데스크탑
+Q8,보유전제품,MULTI,25,"무선 이어폰(예: 에어팟, 갤럭시 버즈 등)"
+Q8,보유전제품,MULTI,26,"스마트 워치(예: 애플워치, 갤럭시 워치, 샤오미 등)"
+Q8,보유전제품,MULTI,27,인공지능 AI 스피커
+Q8,보유전제품,MULTI,28,블루투스 스피커
+Q9_1,보유 휴대폰 단말기 브랜드,SINGLE,1,애플 (아이폰)
+Q9_1,보유 휴대폰 단말기 브랜드,SINGLE,2,"삼성전자 (갤럭시, 노트)"
+Q9_1,보유 휴대폰 단말기 브랜드,SINGLE,3,"LG전자(V 시리즈, G 시리즈 등)"
+Q9_2,보유 휴대폰 모델명,SINGLE,1001,아이폰 15 Pro 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,1002,아이폰 15 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,1003,아이폰 14 Pro 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,1004,아이폰 14 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,1005,아이폰 13 Pro 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,1006,아이폰 13/ 13mini
+Q9_2,보유 휴대폰 모델명,SINGLE,1007,아이폰 12 Pro 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,1008,아이폰 12/ 12mini
+Q9_2,보유 휴대폰 모델명,SINGLE,1009,아이폰 11 Pro 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,1010,아이폰 11
+Q9_2,보유 휴대폰 모델명,SINGLE,1011,아이폰 Xs/Xs Max
+Q9_2,보유 휴대폰 모델명,SINGLE,1012,아이폰 X
+Q9_2,보유 휴대폰 모델명,SINGLE,1013,아이폰 SE
+Q9_2,보유 휴대폰 모델명,SINGLE,1098,기타 아이폰 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2001,갤럭시 Z Fold 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2002,갤럭시 Z Filp 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2003,갤럭시 S23 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2004,갤럭시 S22 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2005,갤럭시 S21 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2006,갤럭시 S20 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2007,갤럭시 A 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2008,갤럭시 노트 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2009,갤럭시 M 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,2098,기타 갤럭시 스마트폰
+Q9_2,보유 휴대폰 모델명,SINGLE,3001,LG 옵티머스 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,3002,LG G Pro
+Q9_2,보유 휴대폰 모델명,SINGLE,3003,LG G Flex
+Q9_2,보유 휴대폰 모델명,SINGLE,3004,LG V 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,3005,LG Q 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,3006,LG X 시리즈
+Q9_2,보유 휴대폰 모델명,SINGLE,3098,LG 기타 스마트폰
+Q10,보유차량여부,SINGLE,1,있다
+Q10,보유차량여부,SINGLE,2,없다
+Q11_1,자동차 제조사,SINGLE,1,기아
+Q11_1,자동차 제조사,SINGLE,2,르노삼성
+Q11_1,자동차 제조사,SINGLE,3,쌍용
+Q11_1,자동차 제조사,SINGLE,4,쉐보레(한국GM/대우)
+Q11_1,자동차 제조사,SINGLE,5,현대
+Q11_1,자동차 제조사,SINGLE,6,제네시스
+Q11_1,자동차 제조사,SINGLE,13,아우디
+Q11_1,자동차 제조사,SINGLE,14,벤틀리
+Q11_1,자동차 제조사,SINGLE,15,BMW
+Q11_1,자동차 제조사,SINGLE,24,포드
+Q11_1,자동차 제조사,SINGLE,25,혼다
+Q11_1,자동차 제조사,SINGLE,26,인피니티
+Q11_1,자동차 제조사,SINGLE,27,재규어
+Q11_1,자동차 제조사,SINGLE,28,지프
+Q11_1,자동차 제조사,SINGLE,30,랜드로버
+Q11_1,자동차 제조사,SINGLE,31,렉서스
+Q11_1,자동차 제조사,SINGLE,32,링컨
+Q11_1,자동차 제조사,SINGLE,37,메르체데스-벤츠
+Q11_1,자동차 제조사,SINGLE,38,BMW미니
+Q11_1,자동차 제조사,SINGLE,40,닛산
+Q11_1,자동차 제조사,SINGLE,42,포르쉐
+Q11_1,자동차 제조사,SINGLE,43,롤스로이스
+Q11_1,자동차 제조사,SINGLE,48,테슬라
+Q11_1,자동차 제조사,SINGLE,49,토요타
+Q11_1,자동차 제조사,SINGLE,50,볼보
+Q11_1,자동차 제조사,SINGLE,51,폭스바겐
+Q11_1,자동차 제조사,SINGLE,52,만
+Q11_1,자동차 제조사,SINGLE,53,스카니아
+Q11_1,자동차 제조사,SINGLE,81,포톤
+Q11_1,자동차 제조사,SINGLE,82,이스트
+Q11_1,자동차 제조사,SINGLE,83,이베코
+Q11_2,자동차 모델,SINGLE,101,레이
+Q11_2,자동차 모델,SINGLE,102,모닝
+Q11_2,자동차 모델,SINGLE,107,K3
+Q11_2,자동차 모델,SINGLE,115,K5
+Q11_2,자동차 모델,SINGLE,121,K7
+Q11_2,자동차 모델,SINGLE,122,K8
+Q11_2,자동차 모델,SINGLE,124,스팅어
+Q11_2,자동차 모델,SINGLE,125,K9
+Q11_2,자동차 모델,SINGLE,132,카니발
+Q11_2,자동차 모델,SINGLE,133,쏘울
+Q11_2,자동차 모델,SINGLE,134,니로
+Q11_2,자동차 모델,SINGLE,135,스토닉
+Q11_2,자동차 모델,SINGLE,136,셀토스
+Q11_2,자동차 모델,SINGLE,138,스포티지
+Q11_2,자동차 모델,SINGLE,140,쏘렌토
+Q11_2,자동차 모델,SINGLE,141,모하비
+Q11_2,자동차 모델,SINGLE,142,EV6
+Q11_2,자동차 모델,SINGLE,181,봉고
+Q11_2,자동차 모델,SINGLE,182,타이탄
+Q11_2,자동차 모델,SINGLE,183,트레이드
+Q11_2,자동차 모델,SINGLE,184,라이노
+Q11_2,자동차 모델,SINGLE,185,복사
+Q11_2,자동차 모델,SINGLE,186,그랜토
+Q11_2,자동차 모델,SINGLE,187,세레스
+Q11_2,자동차 모델,SINGLE,188,프론티어
+Q11_2,자동차 모델,SINGLE,201,클리오
+Q11_2,자동차 모델,SINGLE,202,SM3
+Q11_2,자동차 모델,SINGLE,203,SM5
+Q11_2,자동차 모델,SINGLE,204,SM6
+Q11_2,자동차 모델,SINGLE,205,SM7
+Q11_2,자동차 모델,SINGLE,206,QM3
+Q11_2,자동차 모델,SINGLE,207,XM3
+Q11_2,자동차 모델,SINGLE,208,QM6
+Q11_2,자동차 모델,SINGLE,281,야무진
+Q11_2,자동차 모델,SINGLE,282,SM510/530
+Q11_2,자동차 모델,SINGLE,305,투리스모
+Q11_2,자동차 모델,SINGLE,306,티볼리
+Q11_2,자동차 모델,SINGLE,307,티볼리에어
+Q11_2,자동차 모델,SINGLE,311,코란도(C300)
+Q11_2,자동차 모델,SINGLE,316,코란도스포츠
+Q11_2,자동차 모델,SINGLE,318,G4렉스턴
+Q11_2,자동차 모델,SINGLE,319,렉스턴스포츠
+Q11_2,자동차 모델,SINGLE,320,렉스턴스포츠 칸
+Q11_2,자동차 모델,SINGLE,381,SY트럭
+Q11_2,자동차 모델,SINGLE,402,스파크
+Q11_2,자동차 모델,SINGLE,407,아베오
+Q11_2,자동차 모델,SINGLE,410,볼트
+Q11_2,자동차 모델,SINGLE,415,크루즈
+Q11_2,자동차 모델,SINGLE,418,말리부
+Q11_2,자동차 모델,SINGLE,427,임팔라
+Q11_2,자동차 모델,SINGLE,429,카마로
+Q11_2,자동차 모델,SINGLE,437,트랙스
+Q11_2,자동차 모델,SINGLE,438,트레일블레이저
+Q11_2,자동차 모델,SINGLE,451,트래버스
+Q11_2,자동차 모델,SINGLE,452,콜로라도
+Q11_2,자동차 모델,SINGLE,453,이쿼녹스
+Q11_2,자동차 모델,SINGLE,481,라보
+Q11_2,자동차 모델,SINGLE,482,노부스
+Q11_2,자동차 모델,SINGLE,483,프리마
+Q11_2,자동차 모델,SINGLE,484,바네트
+Q11_2,자동차 모델,SINGLE,504,엑센트
+Q11_2,자동차 모델,SINGLE,509,i30
+Q11_2,자동차 모델,SINGLE,510,아이오닉
+Q11_2,자동차 모델,SINGLE,511,벨로스터
+Q11_2,자동차 모델,SINGLE,514,아반떼
+Q11_2,자동차 모델,SINGLE,518,i40
+Q11_2,자동차 모델,SINGLE,520,쏘나타
+Q11_2,자동차 모델,SINGLE,521,그랜저
+Q11_2,자동차 모델,SINGLE,533,코나
+Q11_2,자동차 모델,SINGLE,534,투싼
+Q11_2,자동차 모델,SINGLE,535,넥쏘
+Q11_2,자동차 모델,SINGLE,537,싼타페
+Q11_2,자동차 모델,SINGLE,543,스타렉스
+Q11_2,자동차 모델,SINGLE,545,그랜드스타렉스
+Q11_2,자동차 모델,SINGLE,551,팰리세이드
+Q11_2,자동차 모델,SINGLE,552,베뉴
+Q11_2,자동차 모델,SINGLE,581,포터
+Q11_2,자동차 모델,SINGLE,582,마이티
+Q11_2,자동차 모델,SINGLE,583,메가트럭
+Q11_2,자동차 모델,SINGLE,584,메가와이드
+Q11_2,자동차 모델,SINGLE,585,누파워트럭
+Q11_2,자동차 모델,SINGLE,586,엑시언트
+Q11_2,자동차 모델,SINGLE,587,슈퍼트럭
+Q11_2,자동차 모델,SINGLE,588,트라고
+Q11_2,자동차 모델,SINGLE,589,뉴파워트럭
+Q11_2,자동차 모델,SINGLE,590,리베로
+Q11_2,자동차 모델,SINGLE,624,G70
+Q11_2,자동차 모델,SINGLE,629,G80
+Q11_2,자동차 모델,SINGLE,630,G90
+Q11_2,자동차 모델,SINGLE,640,GV70
+Q11_2,자동차 모델,SINGLE,641,GV80
+Q11_2,자동차 모델,SINGLE,1301,A1
+Q11_2,자동차 모델,SINGLE,1302,A3
+Q11_2,자동차 모델,SINGLE,1303,A4
+Q11_2,자동차 모델,SINGLE,1304,A5
+Q11_2,자동차 모델,SINGLE,1305,A6
+Q11_2,자동차 모델,SINGLE,1306,A7
+Q11_2,자동차 모델,SINGLE,1307,A8
+Q11_2,자동차 모델,SINGLE,1308,A9
+Q11_2,자동차 모델,SINGLE,1309,Q1
+Q11_2,자동차 모델,SINGLE,1310,Q2
+Q11_2,자동차 모델,SINGLE,1311,Q3
+Q11_2,자동차 모델,SINGLE,1312,Q4
+Q11_2,자동차 모델,SINGLE,1313,Q5
+Q11_2,자동차 모델,SINGLE,1314,Q6
+Q11_2,자동차 모델,SINGLE,1315,Q7
+Q11_2,자동차 모델,SINGLE,1316,Q8
+Q11_2,자동차 모델,SINGLE,1317,R8
+Q11_2,자동차 모델,SINGLE,1318,TT
+Q11_2,자동차 모델,SINGLE,1401,Arnage (아나지)
+Q11_2,자동차 모델,SINGLE,1402,Bentayga (번테이가)
+Q11_2,자동차 모델,SINGLE,1403,Continental Flying Spur (컨티넨탈 플라잉 스퍼)
+Q11_2,자동차 모델,SINGLE,1404,Continental GT (컨티넨탈 GT)
+Q11_2,자동차 모델,SINGLE,1405,Continental GTC (컨티넨탈 GTC)
+Q11_2,자동차 모델,SINGLE,1406,EXP 10
+Q11_2,자동차 모델,SINGLE,1407,Mulsanne (뮬산)
+Q11_2,자동차 모델,SINGLE,1501,1-Series (1 시리즈)
+Q11_2,자동차 모델,SINGLE,1502,1-Series Sport Cross (1 시리즈 스포츠 크로스)
+Q11_2,자동차 모델,SINGLE,1503,2-Series (2 시리즈)
+Q11_2,자동차 모델,SINGLE,1504,2-Series Active Tourer (2 시리즈 액티브 투어러)
+Q11_2,자동차 모델,SINGLE,1505,2-Series Gran Coupe (2 시리즈 그랜 쿠페)
+Q11_2,자동차 모델,SINGLE,1506,3-Series (3 시리즈)
+Q11_2,자동차 모델,SINGLE,1507,3-Series GT (3 시리즈 GT)
+Q11_2,자동차 모델,SINGLE,1508,4-Series (4 시리즈)
+Q11_2,자동차 모델,SINGLE,1509,4-Series Gran Coupe (4 시리즈 그랜 쿠페)
+Q11_2,자동차 모델,SINGLE,1510,5-Series (5 시리즈)
+Q11_2,자동차 모델,SINGLE,1511,5-Series GT (5 시리즈 GT)
+Q11_2,자동차 모델,SINGLE,1512,6-Series (6 시리즈)
+Q11_2,자동차 모델,SINGLE,1513,6-Series Gran Coupe (6 시리즈 그랜 쿠페)
+Q11_2,자동차 모델,SINGLE,1514,7-Series (7 시리즈)
+Q11_2,자동차 모델,SINGLE,1515,9-Series (9 시리즈)
+Q11_2,자동차 모델,SINGLE,1516,i3
+Q11_2,자동차 모델,SINGLE,1517,i5
+Q11_2,자동차 모델,SINGLE,1518,i8
+Q11_2,자동차 모델,SINGLE,1519,X1
+Q11_2,자동차 모델,SINGLE,1520,X3
+Q11_2,자동차 모델,SINGLE,1521,X4
+Q11_2,자동차 모델,SINGLE,1522,X5
+Q11_2,자동차 모델,SINGLE,1523,X6
+Q11_2,자동차 모델,SINGLE,1524,X7
+Q11_2,자동차 모델,SINGLE,1525,Z3
+Q11_2,자동차 모델,SINGLE,1526,Z4
+Q11_2,자동차 모델,SINGLE,1527,Z8
+Q11_2,자동차 모델,SINGLE,2401,Escape (이스케이프)
+Q11_2,자동차 모델,SINGLE,2402,Explorer (익스플로러)
+Q11_2,자동차 모델,SINGLE,2403,Explorer Sport Trac (익스플로러 스포츠 트랙)
+Q11_2,자동차 모델,SINGLE,2404,Focus (포커스)
+Q11_2,자동차 모델,SINGLE,2405,Fusion (퓨전)
+Q11_2,자동차 모델,SINGLE,2406,Kuga (쿠가)
+Q11_2,자동차 모델,SINGLE,2407,Mondeo (몬데오)
+Q11_2,자동차 모델,SINGLE,2408,Mustang (머스탱)
+Q11_2,자동차 모델,SINGLE,2409,S-MAX
+Q11_2,자동차 모델,SINGLE,2410,Taurus (토러스)
+Q11_2,자동차 모델,SINGLE,2411,Taurus X (토러스 X)
+Q11_2,자동차 모델,SINGLE,2412,Windstar (윈드스타)
+Q11_2,자동차 모델,SINGLE,2501,Accord (어코드)
+Q11_2,자동차 모델,SINGLE,2502,Civic (시빅)
+Q11_2,자동차 모델,SINGLE,2503,CrossTour (크로스투어)
+Q11_2,자동차 모델,SINGLE,2504,CR-V
+Q11_2,자동차 모델,SINGLE,2505,CR-Z
+Q11_2,자동차 모델,SINGLE,2506,HR-V
+Q11_2,자동차 모델,SINGLE,2507,Insight (인사이트)
+Q11_2,자동차 모델,SINGLE,2508,Legend (레전드)
+Q11_2,자동차 모델,SINGLE,2509,NSX
+Q11_2,자동차 모델,SINGLE,2510,Odyssey (오딧세이)
+Q11_2,자동차 모델,SINGLE,2511,Pilot (파일럿)
+Q11_2,자동차 모델,SINGLE,2512,Vezel (베젤)
+Q11_2,자동차 모델,SINGLE,2601,EX
+Q11_2,자동차 모델,SINGLE,2602,FX
+Q11_2,자동차 모델,SINGLE,2603,G
+Q11_2,자동차 모델,SINGLE,2604,G35
+Q11_2,자동차 모델,SINGLE,2605,JX
+Q11_2,자동차 모델,SINGLE,2606,M
+Q11_2,자동차 모델,SINGLE,2607,Q11-15
+Q11_2,자동차 모델,SINGLE,2608,Q50
+Q11_2,자동차 모델,SINGLE,2609,Q60
+Q11_2,자동차 모델,SINGLE,2610,Q70
+Q11_2,자동차 모델,SINGLE,2611,QX
+Q11_2,자동차 모델,SINGLE,2612,QX50
+Q11_2,자동차 모델,SINGLE,2613,QX60
+Q11_2,자동차 모델,SINGLE,2614,QX70
+Q11_2,자동차 모델,SINGLE,2615,QX80
+Q11_2,자동차 모델,SINGLE,2701,E-PACE
+Q11_2,자동차 모델,SINGLE,2702,F-PACE
+Q11_2,자동차 모델,SINGLE,2703,F-Type
+Q11_2,자동차 모델,SINGLE,2704,I-PACE
+Q11_2,자동차 모델,SINGLE,2705,I-Type
+Q11_2,자동차 모델,SINGLE,2706,S-Type
+Q11_2,자동차 모델,SINGLE,2707,XE
+Q11_2,자동차 모델,SINGLE,2708,XF
+Q11_2,자동차 모델,SINGLE,2709,XJ
+Q11_2,자동차 모델,SINGLE,2710,XK
+Q11_2,자동차 모델,SINGLE,2711,X-Type
+Q11_2,자동차 모델,SINGLE,2801,Cherokee (체로키)
+Q11_2,자동차 모델,SINGLE,2802,Commander (커맨더)
+Q11_2,자동차 모델,SINGLE,2803,Compass (컴패스)
+Q11_2,자동차 모델,SINGLE,2804,Grand Cherokee (그랜드 체로키)
+Q11_2,자동차 모델,SINGLE,2805,Patriot (패트리어트)
+Q11_2,자동차 모델,SINGLE,2806,Renegade (레니게이드)
+Q11_2,자동차 모델,SINGLE,2807,Wrangler (랭글러)
+Q11_2,자동차 모델,SINGLE,3001,Defender Sport (디펜더 스포츠)
+Q11_2,자동차 모델,SINGLE,3002,Discovery (디스커버리)
+Q11_2,자동차 모델,SINGLE,3003,Discovery Sport (디스커버리 스포츠)
+Q11_2,자동차 모델,SINGLE,3004,Freelander (프리랜더)
+Q11_2,자동차 모델,SINGLE,3005,Range Rover (레인지로버)
+Q11_2,자동차 모델,SINGLE,3006,Range Rover Evoque (레인지로버 이보크)
+Q11_2,자동차 모델,SINGLE,3007,Range Rover Grand Evoque(레인지로버 그랜드 이보크)
+Q11_2,자동차 모델,SINGLE,3008,Range Rover Sport (레인지로버 스포츠)
+Q11_2,자동차 모델,SINGLE,3101,CT
+Q11_2,자동차 모델,SINGLE,3102,ES
+Q11_2,자동차 모델,SINGLE,3103,GS
+Q11_2,자동차 모델,SINGLE,3104,IS
+Q11_2,자동차 모델,SINGLE,3105,LC
+Q11_2,자동차 모델,SINGLE,3106,LS
+Q11_2,자동차 모델,SINGLE,3107,NX
+Q11_2,자동차 모델,SINGLE,3108,RC
+Q11_2,자동차 모델,SINGLE,3109,RX
+Q11_2,자동차 모델,SINGLE,3110,SC
+Q11_2,자동차 모델,SINGLE,3201,Aviator (에비에이터)
+Q11_2,자동차 모델,SINGLE,3202,Continental (컨티넨탈)
+Q11_2,자동차 모델,SINGLE,3204,MKC
+Q11_2,자동차 모델,SINGLE,3205,MKS
+Q11_2,자동차 모델,SINGLE,3206,MKX
+Q11_2,자동차 모델,SINGLE,3207,MKZ
+Q11_2,자동차 모델,SINGLE,3208,Town Car (타운카)
+Q11_2,자동차 모델,SINGLE,3209,Nautilus (노틸러스)
+Q11_2,자동차 모델,SINGLE,3210,Corsair (코세어)
+Q11_2,자동차 모델,SINGLE,3701,A-Class (A 클래스)
+Q11_2,자동차 모델,SINGLE,3702,B-Class (B 클래스)
+Q11_2,자동차 모델,SINGLE,3703,C-Class (C 클래스)
+Q11_2,자동차 모델,SINGLE,3704,CL
+Q11_2,자동차 모델,SINGLE,3705,CLA
+Q11_2,자동차 모델,SINGLE,3706,CLE
+Q11_2,자동차 모델,SINGLE,3707,CLK
+Q11_2,자동차 모델,SINGLE,3708,CLS
+Q11_2,자동차 모델,SINGLE,3709,Compact Sedan (컴팩트 세단)
+Q11_2,자동차 모델,SINGLE,3710,E-Class (E 클래스)
+Q11_2,자동차 모델,SINGLE,3711,G-Class (G 클래스)
+Q11_2,자동차 모델,SINGLE,3712,GLA
+Q11_2,자동차 모델,SINGLE,3713,GLB
+Q11_2,자동차 모델,SINGLE,3714,GLC
+Q11_2,자동차 모델,SINGLE,3715,GLC Coupe (GLC 쿠페)
+Q11_2,자동차 모델,SINGLE,3716,GLE
+Q11_2,자동차 모델,SINGLE,3717,GLE Coupe (GLE 쿠페)
+Q11_2,자동차 모델,SINGLE,3718,GLK
+Q11_2,자동차 모델,SINGLE,3719,GLS
+Q11_2,자동차 모델,SINGLE,3720,GT
+Q11_2,자동차 모델,SINGLE,3721,GT-4
+Q11_2,자동차 모델,SINGLE,3722,ML-Class (ML 클래스)
+Q11_2,자동차 모델,SINGLE,3723,S-Class (S 클래스)
+Q11_2,자동차 모델,SINGLE,3724,S-Class Coupe (S 클래스 쿠페)
+Q11_2,자동차 모델,SINGLE,3725,SL
+Q11_2,자동차 모델,SINGLE,3726,SLC
+Q11_2,자동차 모델,SINGLE,3727,SLK
+Q11_2,자동차 모델,SINGLE,3728,SLS
+Q11_2,자동차 모델,SINGLE,3729,EQC
+Q11_2,자동차 모델,SINGLE,3781,아테고
+Q11_2,자동차 모델,SINGLE,3782,악트로스
+Q11_2,자동차 모델,SINGLE,3783,아록스
+Q11_2,자동차 모델,SINGLE,3801,Clubman (클럽맨)
+Q11_2,자동차 모델,SINGLE,3802,Countryman (컨트리맨)
+Q11_2,자동차 모델,SINGLE,3803,Coupe (쿠페)
+Q11_2,자동차 모델,SINGLE,3804,Mini (미니)
+Q11_2,자동차 모델,SINGLE,3805,Paceman (페이스맨)
+Q11_2,자동차 모델,SINGLE,3806,Roadster (로드스터)
+Q11_2,자동차 모델,SINGLE,3807,Superleggera (슈퍼레제라)
+Q11_2,자동차 모델,SINGLE,4001,370Z
+Q11_2,자동차 모델,SINGLE,4002,Altima (알티마)
+Q11_2,자동차 모델,SINGLE,4003,Cube (큐브)
+Q11_2,자동차 모델,SINGLE,4004,GT-R
+Q11_2,자동차 모델,SINGLE,4005,Juke (쥬크)
+Q11_2,자동차 모델,SINGLE,4006,Leaf (리프)
+Q11_2,자동차 모델,SINGLE,4007,Maxima (맥시마)
+Q11_2,자동차 모델,SINGLE,4008,Murano (무라노)
+Q11_2,자동차 모델,SINGLE,4009,Pathfinder (패스파인더)
+Q11_2,자동차 모델,SINGLE,4010,Qashqai (캐시카이)
+Q11_2,자동차 모델,SINGLE,4011,Rogue (로그)
+Q11_2,자동차 모델,SINGLE,4201,911
+Q11_2,자동차 모델,SINGLE,4202,960
+Q11_2,자동차 모델,SINGLE,4203,718 Boxster (718 박스터)
+Q11_2,자동차 모델,SINGLE,4204,718 Cayman (718 카이맨)
+Q11_2,자동차 모델,SINGLE,4205,918 Spyder (918 스파이더)
+Q11_2,자동차 모델,SINGLE,4206,Boxster (박스터)
+Q11_2,자동차 모델,SINGLE,4207,Carrera GT (카레라 GT)
+Q11_2,자동차 모델,SINGLE,4208,Cayenne (카이엔)
+Q11_2,자동차 모델,SINGLE,4209,Cayenne Coupe (카이엔 쿠페)
+Q11_2,자동차 모델,SINGLE,4210,Cayman (카이맨)
+Q11_2,자동차 모델,SINGLE,4211,Macan (마칸)
+Q11_2,자동차 모델,SINGLE,4212,Pajun (파준)
+Q11_2,자동차 모델,SINGLE,4213,Panamera (파나메라)
+Q11_2,자동차 모델,SINGLE,4301,Dawn (던)
+Q11_2,자동차 모델,SINGLE,4302,Ghost (고스트)
+Q11_2,자동차 모델,SINGLE,4303,Phantom (팬텀)
+Q11_2,자동차 모델,SINGLE,4304,Phantom Coupe (팬텀 쿠페)
+Q11_2,자동차 모델,SINGLE,4305,Phantom Drophead Coupe(팬텀 드롭헤드 쿠페)
+Q11_2,자동차 모델,SINGLE,4306,Wraith (레이스)
+Q11_2,자동차 모델,SINGLE,4801,Model 3 (모델 3)
+Q11_2,자동차 모델,SINGLE,4802,Model S (모델 S)
+Q11_2,자동차 모델,SINGLE,4803,Model X (모델 X)
+Q11_2,자동차 모델,SINGLE,4804,Model Y (모델 Y)
+Q11_2,자동차 모델,SINGLE,4805,사이버트럭
+Q11_2,자동차 모델,SINGLE,4806,로드스터
+Q11_2,자동차 모델,SINGLE,4901,Avalon (아발론)
+Q11_2,자동차 모델,SINGLE,4902,Camry (캠리)
+Q11_2,자동차 모델,SINGLE,4903,Corolla (코롤라)
+Q11_2,자동차 모델,SINGLE,4904,FJ Cruiser (FJ 크루저)
+Q11_2,자동차 모델,SINGLE,4905,GT 86
+Q11_2,자동차 모델,SINGLE,4906,Prius (프리우스)
+Q11_2,자동차 모델,SINGLE,4907,Prius V (프리우스 V)
+Q11_2,자동차 모델,SINGLE,4908,Prius C (프리우스 C)
+Q11_2,자동차 모델,SINGLE,4909,RAV4
+Q11_2,자동차 모델,SINGLE,4910,Sienna (시에나)
+Q11_2,자동차 모델,SINGLE,4911,Tacoma (타코마)
+Q11_2,자동차 모델,SINGLE,4912,Venza (벤자)
+Q11_2,자동차 모델,SINGLE,4913,Alphard
+Q11_2,자동차 모델,SINGLE,5001,C30
+Q11_2,자동차 모델,SINGLE,5002,C70
+Q11_2,자동차 모델,SINGLE,5003,S40
+Q11_2,자동차 모델,SINGLE,5004,S60
+Q11_2,자동차 모델,SINGLE,5005,S80
+Q11_2,자동차 모델,SINGLE,5006,S90
+Q11_2,자동차 모델,SINGLE,5007,V40
+Q11_2,자동차 모델,SINGLE,5008,V50
+Q11_2,자동차 모델,SINGLE,5009,V60
+Q11_2,자동차 모델,SINGLE,5010,V70
+Q11_2,자동차 모델,SINGLE,5011,V90 Cross Country (V90 크로스 컨트리)
+Q11_2,자동차 모델,SINGLE,5012,XC40
+Q11_2,자동차 모델,SINGLE,5013,XC60
+Q11_2,자동차 모델,SINGLE,5014,XC70
+Q11_2,자동차 모델,SINGLE,5015,XC90
+Q11_2,자동차 모델,SINGLE,5081,FL
+Q11_2,자동차 모델,SINGLE,5082,FH
+Q11_2,자동차 모델,SINGLE,5083,FMX
+Q11_2,자동차 모델,SINGLE,5101,Bora (보라)
+Q11_2,자동차 모델,SINGLE,5102,CC
+Q11_2,자동차 모델,SINGLE,5103,Eos
+Q11_2,자동차 모델,SINGLE,5104,Golf (골프)
+Q11_2,자동차 모델,SINGLE,5105,Jetta (제타)
+Q11_2,자동차 모델,SINGLE,5106,New Beetle (뉴비틀)
+Q11_2,자동차 모델,SINGLE,5107,New Beetle Convertible (뉴비틀 컨버터블)
+Q11_2,자동차 모델,SINGLE,5108,Passat (파사트)
+Q11_2,자동차 모델,SINGLE,5109,Phaeton (페이톤)
+Q11_2,자동차 모델,SINGLE,5110,Polo (폴로)
+Q11_2,자동차 모델,SINGLE,5111,Scirocco (시로코)
+Q11_2,자동차 모델,SINGLE,5112,Tiguan (티구안)
+Q11_2,자동차 모델,SINGLE,5113,Touareg (투아렉)
+Q11_2,자동차 모델,SINGLE,5114,Touran (투란)
+Q11_2,자동차 모델,SINGLE,5115,Arteon (아테온)
+Q11_2,자동차 모델,SINGLE,5281,TGM
+Q11_2,자동차 모델,SINGLE,5282,TGS
+Q11_2,자동차 모델,SINGLE,5283,TGX
+Q11_2,자동차 모델,SINGLE,5381,G
+Q11_2,자동차 모델,SINGLE,5382,P
+Q11_2,자동차 모델,SINGLE,5383,R
+Q11_2,자동차 모델,SINGLE,5384,S
+Q11_2,자동차 모델,SINGLE,8101,아오마크
+Q11_2,자동차 모델,SINGLE,8201,엘프
+Q11_2,자동차 모델,SINGLE,8301,트래커
+Q12,흡연경험,MULTI,1,일반 담배
+Q12,흡연경험,MULTI,2,"궐련형 전자 담배/ 가열식 담배 ((예) 아이코스, 글로, 릴만 해당 됨)"
+Q12,흡연경험,MULTI,3,액상형 전자담배 ((예) 저스트포그 등)
+Q12,흡연경험,MULTI,6,"하이브리드형 전자담배 ((예) 릴 하이브리드, 글로센스, 풀룸테크 등)"
+Q12,흡연경험,MULTI,4,"기타 담배(머금는 담배(스누스), 물담배, 시가 등)"
+Q12,흡연경험,MULTI,5,담배를 피워본 적이 없다
+Q12_1,흡연경험 담배브랜드,MULTI,1,레종
+Q12_1,흡연경험 담배브랜드,MULTI,2,에쎄
+Q12_1,흡연경험 담배브랜드,MULTI,3,보헴
+Q12_1,흡연경험 담배브랜드,MULTI,4,아프리카
+Q12_1,흡연경험 담배브랜드,MULTI,5,더원
+Q12_1,흡연경험 담배브랜드,MULTI,6,시즌
+Q12_1,흡연경험 담배브랜드,MULTI,7,아이스볼트 GT
+Q12_1,흡연경험 담배브랜드,MULTI,8,디스플러스
+Q12_1,흡연경험 담배브랜드,MULTI,9,디스
+Q12_1,흡연경험 담배브랜드,MULTI,10,한라산
+Q12_1,흡연경험 담배브랜드,MULTI,11,라일락
+Q12_1,흡연경험 담배브랜드,MULTI,12,심플
+Q12_1,흡연경험 담배브랜드,MULTI,13,타임
+Q12_1,흡연경험 담배브랜드,MULTI,14,88리턴즈
+Q12_1,흡연경험 담배브랜드,MULTI,15,말보로
+Q12_1,흡연경험 담배브랜드,MULTI,16,팔리아멘트
+Q12_1,흡연경험 담배브랜드,MULTI,17,메비우스(구 마일드세븐)
+Q12_1,흡연경험 담배브랜드,MULTI,18,던힐
+Q12_1,흡연경험 담배브랜드,MULTI,19,라크
+Q12_1,흡연경험 담배브랜드,MULTI,20,카멜
+Q12_1,흡연경험 담배브랜드,MULTI,22,다비도프
+Q12_1,흡연경험 담배브랜드,MULTI,23,하모니(구 라크)
+Q12_1,흡연경험 담배브랜드,MULTI,24,럭키스트라이크
+Q12_1,흡연경험 담배브랜드,MULTI,25,버지니아 S
+Q12_1,흡연경험 담배브랜드,MULTI,26,블랙데빌
+Q12_1,흡연경험 담배브랜드,MULTI,27,켄트(구 로스만)
+Q12_1,흡연경험 담배브랜드,MULTI,28,클라우드 나인
+Q12_1,흡연경험 담배브랜드,MULTI,29,토니노 람보르기니
+Q12_1,흡연경험 담배브랜드,MULTI,30,하비스트
+Q12_1,흡연경험 담배브랜드,MULTI,21,기타 브랜드(구체적으로: [Q12_1_ETC] )
+Q12_2,궐련형 전자담배/가열식 전자담배 이용경험,MULTI,1,아이코스
+Q12_2,궐련형 전자담배/가열식 전자담배 이용경험,MULTI,2,릴
+Q12_2,궐련형 전자담배/가열식 전자담배 이용경험,MULTI,3,글로
+Q12_2,궐련형 전자담배/가열식 전자담배 이용경험,MULTI,5,차이코스 (CQS)
+Q12_2,궐련형 전자담배/가열식 전자담배 이용경험,MULTI,4,기타(구체적으로: [Q12_2_ETC] )
+Q13,음용경험 술,MULTI,1,소주
+Q13,음용경험 술,MULTI,2,맥주
+Q13,음용경험 술,MULTI,3,"저도주 (맥주, 막걸리, 와인 등을 제외한 18도 미만의 술 - 청주, 매실주, 복분자주 등이 있음)"
+Q13,음용경험 술,MULTI,4,막걸리/탁주
+Q13,음용경험 술,MULTI,5,"양주 (위스키, 보드카, 데킬라, 진 등)"
+Q13,음용경험 술,MULTI,6,와인
+Q13,음용경험 술,MULTI,7,"과일칵테일주 (도수가 낮고, 과일 맛을 첨가한 술 - KGB, 후치, 크루저 등이 있음)"
+Q13,음용경험 술,MULTI,8,일본청주/사케
+Q13,음용경험 술,MULTI,9,기타 ( [Q13_ETC] )
+Q13,음용경험 술,MULTI,10,최근 1년 이내 술을 마시지 않음
+Q10,귀하의 성별은,SINGLE,M,남성
+Q10,귀하의 성별은,SINGLE,F,여성
