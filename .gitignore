@@ -1,1 +1,7 @@
 .DS_Store
+venv/
+
+# 데이터 파일 (GitHub에 올리지 않음)
+data/raw/*.xlsx
+*.xlsx
+
